@@ -2029,7 +2029,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>5</v8:content>
+							<v8:content>4</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -2929,7 +2929,7 @@
 	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentDrawingLineType">None</v8ui:style>
 	</line>
-	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute"/>
 	<format>
 		<width>353</width>
 	</format>
