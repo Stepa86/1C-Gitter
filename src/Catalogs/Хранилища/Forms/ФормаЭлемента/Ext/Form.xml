@@ -233,6 +233,17 @@
 									<ContextMenu name="ЛокальныйРепозиторийАдресКонтекстноеМеню" id="29"/>
 									<ExtendedTooltip name="ЛокальныйРепозиторийАдресРасширеннаяПодсказка" id="30"/>
 								</InputField>
+								<InputField name="КаталогСИсходнымиКодами" id="209">
+									<DataPath>Объект.КаталогСИсходнымКодом</DataPath>
+									<InputHint>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>src</v8:content>
+										</v8:item>
+									</InputHint>
+									<ContextMenu name="КаталогСИсходнымиКодамиКонтекстноеМеню" id="210"/>
+									<ExtendedTooltip name="КаталогСИсходнымиКодамиРасширеннаяПодсказка" id="211"/>
+								</InputField>
 								<CheckBoxField name="ВыгружатьВУдаленныйРепозиторий" id="31">
 									<DataPath>Объект.ВыгружатьВУдаленныйРепозиторий</DataPath>
 									<EditMode>EnterOnInput</EditMode>
