@@ -224,6 +224,7 @@
 								<InputField name="ЛокальныйРепозиторийАдрес" id="28">
 									<DataPath>Объект.ЛокальныйРепозиторийАдрес</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<OpenButton>true</OpenButton>
 									<InputHint>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -232,6 +233,9 @@
 									</InputHint>
 									<ContextMenu name="ЛокальныйРепозиторийАдресКонтекстноеМеню" id="29"/>
 									<ExtendedTooltip name="ЛокальныйРепозиторийАдресРасширеннаяПодсказка" id="30"/>
+									<Events>
+										<Event name="Opening">ЛокальныйРепозиторийАдресОткрытие</Event>
+									</Events>
 								</InputField>
 								<InputField name="КаталогСИсходнымиКодами" id="209">
 									<DataPath>Объект.КаталогСИсходнымКодом</DataPath>
@@ -244,6 +248,12 @@
 									<ContextMenu name="КаталогСИсходнымиКодамиКонтекстноеМеню" id="210"/>
 									<ExtendedTooltip name="КаталогСИсходнымиКодамиРасширеннаяПодсказка" id="211"/>
 								</InputField>
+								<Button name="СправочникХранилищаИнициироватьЛокальныйРепозиторий" id="212">
+									<Type>UsualButton</Type>
+									<CommandName>Catalog.Хранилища.Command.ИнициироватьЛокальныйРепозиторий</CommandName>
+									<DataPath>Объект.Ref</DataPath>
+									<ExtendedTooltip name="СправочникХранилищаИнициироватьЛокальныйРепозиторийРасширеннаяПодсказка" id="213"/>
+								</Button>
 								<CheckBoxField name="ВыгружатьВУдаленныйРепозиторий" id="31">
 									<DataPath>Объект.ВыгружатьВУдаленныйРепозиторий</DataPath>
 									<EditMode>EnterOnInput</EditMode>

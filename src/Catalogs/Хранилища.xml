@@ -1172,7 +1172,7 @@
 						<v8:Type>cfg:CatalogRef.Хранилища</v8:Type>
 					</CommandParameterType>
 					<ParameterUseMode>Single</ParameterUseMode>
-					<ModifiesData>false</ModifiesData>
+					<ModifiesData>true</ModifiesData>
 					<Representation>Auto</Representation>
 					<ToolTip/>
 					<Picture/>
