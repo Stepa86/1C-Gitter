@@ -199,6 +199,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.ирВыпускВариантаРасширение</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ирИнтерфейснаяПанель.Attribute.ИсторияКоманд</name>
 		<right>
 			<name>Edit</name>
@@ -376,6 +383,13 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.ирАдаптацияРасширения</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -717,7 +731,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.ИнструментыРазработчика.Subsystem.КонтекстнаяПодсказка</name>
+		<name>Subsystem.ИнструментыРазработчикаTormozit.Subsystem.КонтекстнаяПодсказка</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -921,7 +935,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.ИнструментыРазработчика</name>
+		<name>Subsystem.ИнструментыРазработчикаTormozit</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1184,6 +1198,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.ирСлужебный</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ирАнализТехножурнала.TabularSection.ТаблицаЖурнала.Attribute.Инфобаза</name>
 		<right>
 			<name>Edit</name>
@@ -1406,6 +1431,13 @@
 			<name>Use</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ирОткрытьСписокИнструментов</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1719,7 +1751,7 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.ирВыпускПортативногоВарианта</name>
+		<name>CommonForm.ирВыпускВариантаПортативный</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -2152,6 +2184,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonCommand.ирСохранитьНастройкиПользователя</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ирРедакторОбъектаБД</name>
 		<right>
 			<name>Use</name>
@@ -2287,6 +2326,17 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ирУправлениеCOMКлассами1С</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>

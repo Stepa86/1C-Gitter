@@ -3460,7 +3460,7 @@
 	<defaultFormatIndex>6</defaultFormatIndex>
 	<height>90</height>
 	<vgRows>90</vgRows>
-	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute"/>
 	<format>
 		<width>185</width>
 	</format>

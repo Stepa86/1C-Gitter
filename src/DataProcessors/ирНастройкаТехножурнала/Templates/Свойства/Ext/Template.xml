@@ -6205,7 +6205,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Список соединений, с которыми идет столкновение по управляемым транзакционным блокировкам</v8:content>
+							<v8:content>Список соединений, с которыми идет столкновение по управляемым транзакционным блокировкам при первой попытке установки блокировки</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -6302,9 +6302,9 @@
 	<defaultFormatIndex>8</defaultFormatIndex>
 	<height>147</height>
 	<vgRows>147</vgRows>
-	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
-	<font faceName="Arial" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
-	<font faceName="Calibri" height="11" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute"/>
+	<font faceName="Arial" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute"/>
+	<font faceName="Calibri" height="11" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute"/>
 	<format>
 		<width>141</width>
 	</format>

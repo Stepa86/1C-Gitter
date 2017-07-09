@@ -6148,7 +6148,7 @@
 		<name>ирЧисло</name>
 		<drawingID>8219</drawingID>
 	</namedItem>
-	<font xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" ref="sys:DefaultGUIFont" height="8" bold="true" kind="WindowsFont" scale="100"/>
+	<font xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" ref="sys:DefaultGUIFont" height="8" bold="true" kind="WindowsFont"/>
 	<format>
 		<font>0</font>
 	</format>

@@ -817,7 +817,7 @@
 	<defaultFormatIndex>8</defaultFormatIndex>
 	<height>13</height>
 	<vgRows>13</vgRows>
-	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute"/>
 	<format>
 		<width>130</width>
 	</format>

@@ -3502,7 +3502,7 @@
 	<defaultFormatIndex>9</defaultFormatIndex>
 	<height>61</height>
 	<vgRows>61</vgRows>
-	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute"/>
 	<format>
 		<width>138</width>
 		<verticalAlignment>Center</verticalAlignment>

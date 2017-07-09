@@ -771,7 +771,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ОбъединитьСсылкиНаОбъекты</v8:content>
+							<v8:content>ЗаменитьСсылкиНаОбъекты</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -886,7 +886,7 @@
 	<defaultFormatIndex>10</defaultFormatIndex>
 	<height>14</height>
 	<vgRows>14</vgRows>
-	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute"/>
 	<format>
 		<width>215</width>
 	</format>

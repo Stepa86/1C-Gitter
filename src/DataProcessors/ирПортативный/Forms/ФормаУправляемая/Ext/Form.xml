@@ -5,6 +5,7 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnLoadDataFromSettingsAtServer">ПриЗагрузкеДанныхИзНастроекНаСервере</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -14,70 +15,124 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="8006"/>
 			<ChildItems>
-				<Button name="ЗапуститьОбычноеПриложение" id="4">
-					<Type>UsualButton</Type>
-					<CommandName>Form.Command.ЗапуститьОбычноеПриложение</CommandName>
-					<Picture>
-						<xr:Ref>StdPicture.GenerateReport</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</Picture>
-					<ExtendedTooltip name="ЗапуститьОбычноеПриложениеРасширеннаяПодсказка" id="8007"/>
-				</Button>
-				<CheckBoxField name="ЗакрытьФорму" id="8013">
-					<DataPath>ЗакрытьФорму</DataPath>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Закрыть эту форму после запуска</v8:content>
-						</v8:item>
-					</ToolTip>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ЗакрытьФормуКонтекстноеМеню" id="8014"/>
-					<ExtendedTooltip name="ЗакрытьФормуРасширеннаяПодсказка" id="8015"/>
-				</CheckBoxField>
-				<CheckBoxField name="ПодключитьОтладчик" id="8010">
-					<DataPath>ПодключитьОтладчик</DataPath>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Подключить к запускаемому приложению отладчик, если он подключен к текущему сеансу.</v8:content>
-						</v8:item>
-					</ToolTip>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ПодключитьОтладчикКонтекстноеМеню" id="8011"/>
-					<ExtendedTooltip name="ПодключитьОтладчикРасширеннаяПодсказка" id="8012"/>
-				</CheckBoxField>
-				<CheckBoxField name="ТекущийПользователь" id="8016">
-					<DataPath>ТекущийПользователь</DataPath>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Запустить от имени текущего пользователя</v8:content>
-						</v8:item>
-					</ToolTip>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ТекущийПользовательКонтекстноеМеню" id="8017"/>
-					<ExtendedTooltip name="ТекущийПользовательРасширеннаяПодсказка" id="8018"/>
-				</CheckBoxField>
-				<InputField name="КодРазрешения" id="8001">
-					<DataPath>КодРазрешения</DataPath>
-					<Width>15</Width>
-					<ContextMenu name="КодРазрешенияКонтекстноеМеню" id="8002"/>
-					<ExtendedTooltip name="КодРазрешенияРасширеннаяПодсказка" id="8008"/>
-				</InputField>
+				<UsualGroup name="Группа2" id="8021">
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="8022"/>
+					<ChildItems>
+						<Button name="ЗапуститьОбычноеПриложение" id="4">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ЗапуститьОбычноеПриложение</CommandName>
+							<Picture>
+								<xr:Ref>StdPicture.GenerateReport</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ExtendedTooltip name="ЗапуститьОбычноеПриложениеРасширеннаяПодсказка" id="8007"/>
+						</Button>
+						<Button name="ЗапуститьТолстыйКлиент" id="8019">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ЗапуститьТолстыйКлиент</CommandName>
+							<Picture>
+								<xr:Ref>StdPicture.GenerateReport</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ExtendedTooltip name="ЗапуститьТолстыйКлиентРасширеннаяПодсказка" id="8020"/>
+						</Button>
+						<LabelDecoration name="Текст" id="1">
+							<TextColor>style:SpecialTextColor</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>&lt;Предупреждение&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ТекстКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="ТекстРасширеннаяПодсказка" id="8009"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа3" id="8023">
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="8024"/>
+					<ChildItems>
+						<CheckBoxField name="ЗакрытьФорму" id="8013">
+							<DataPath>ЗакрытьФорму</DataPath>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Закрыть эту форму после запуска</v8:content>
+								</v8:item>
+							</ToolTip>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ЗакрытьФормуКонтекстноеМеню" id="8014"/>
+							<ExtendedTooltip name="ЗакрытьФормуРасширеннаяПодсказка" id="8015"/>
+						</CheckBoxField>
+						<CheckBoxField name="ПодключитьОтладчик" id="8010">
+							<DataPath>ПодключитьОтладчик</DataPath>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Подключить к запускаемому приложению отладчик, если он подключен к текущему сеансу.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПодключитьОтладчикКонтекстноеМеню" id="8011"/>
+							<ExtendedTooltip name="ПодключитьОтладчикРасширеннаяПодсказка" id="8012"/>
+						</CheckBoxField>
+						<UsualGroup name="Группа4" id="8028">
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="8029"/>
+							<ChildItems>
+								<CheckBoxField name="ТекущийПользователь" id="8016">
+									<DataPath>ТекущийПользователь</DataPath>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Запустить от имени текущего пользователя</v8:content>
+										</v8:item>
+									</ToolTip>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ТекущийПользовательКонтекстноеМеню" id="8017"/>
+									<ExtendedTooltip name="ТекущийПользовательРасширеннаяПодсказка" id="8018"/>
+									<Events>
+										<Event name="OnChange">ТекущийПользовательПриИзменении</Event>
+									</Events>
+								</CheckBoxField>
+								<InputField name="ПарольТекущегоПользователя" id="8025">
+									<DataPath>ПарольТекущегоПользователя</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>пароль</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Если ввести пароль в этом поле, то он будет сохранен в настройках текущего пользователя, но другие администраторы смогут его узнать при большом желании.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<PasswordMode>true</PasswordMode>
+									<ContextMenu name="ПарольТекущегоПользователяКонтекстноеМеню" id="8026"/>
+									<ExtendedTooltip name="ПарольТекущегоПользователяРасширеннаяПодсказка" id="8027"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<InputField name="КодРазрешения" id="8001">
+							<DataPath>КодРазрешения</DataPath>
+							<Width>15</Width>
+							<ContextMenu name="КодРазрешенияКонтекстноеМеню" id="8002"/>
+							<ExtendedTooltip name="КодРазрешенияРасширеннаяПодсказка" id="8008"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
-		<LabelDecoration name="Текст" id="1">
-			<TextColor>style:SpecialTextColor</TextColor>
-			<Title formatted="false">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>&lt;Предупреждение&gt;</v8:content>
-				</v8:item>
-			</Title>
-			<ContextMenu name="ТекстКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="ТекстРасширеннаяПодсказка" id="8009"/>
-		</LabelDecoration>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -151,6 +206,24 @@
 				<Field>ТекущийПользователь</Field>
 			</Save>
 		</Attribute>
+		<Attribute name="ПарольТекущегоПользователя" id="8004">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пароль текущего пользователя</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ПарольТекущегоПользователя</Field>
+			</Save>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ЗапуститьОбычноеПриложение" id="1">
@@ -167,6 +240,22 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗапуститьОбычноеПриложение</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ЗапуститьТолстыйКлиент" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить толстый клиент</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить толстый клиент</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗапуститьТолстыйКлиент</Action>
 			<Representation>TextPicture</Representation>
 		</Command>
 	</Commands>
