@@ -144,6 +144,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>ИнструментыРазработчикаTormozit</Subsystem>
+			<Subsystem>Gitter</Subsystem>
 			<StyleItem>ирТекстИнформационнойНадписи</StyleItem>
 			<StyleItem>ирЦветФонаВычисляемогоЗначения</StyleItem>
 			<StyleItem>ирЦветФонаОшибки</StyleItem>
@@ -329,6 +330,7 @@
 			<CommonTemplate>ирШаблонРасширения</CommonTemplate>
 			<CommonModule>_Глобальный</CommonModule>
 			<CommonModule>_ОбщегоНазначенияПовтИсп</CommonModule>
+			<CommonModule>_ПользователиВызовСервера</CommonModule>
 			<CommonModule>Git</CommonModule>
 			<CommonModule>ирГлобальный</CommonModule>
 			<CommonModule>ирКэш</CommonModule>
@@ -364,6 +366,7 @@
 			<CommonForm>ирВыпускВариантаРасширение</CommonForm>
 			<CommonForm>ирОтладкаВнешнихОбработокБСП</CommonForm>
 			<CommonForm>ирОбновлениеОписанияПлатформы</CommonForm>
+			<Catalog>_УчетныеЗаписи</Catalog>
 			<Catalog>ВерсииКонфигурацийХранилища</Catalog>
 			<Catalog>ирАлгоритмы</Catalog>
 			<Catalog>ирКомандаРедактироватьОбъект</Catalog>
