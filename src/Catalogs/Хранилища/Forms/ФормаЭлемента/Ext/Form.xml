@@ -289,6 +289,18 @@
 									<ContextMenu name="УдаленныйРепозиторийАдресКонтекстноеМеню" id="35"/>
 									<ExtendedTooltip name="УдаленныйРепозиторийАдресРасширеннаяПодсказка" id="36"/>
 								</InputField>
+								<InputField name="УчетнаяЗаписьДляPush" id="216">
+									<DataPath>Объект.УчетнаяЗаписьДляPush</DataPath>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Будет запущен скрипт из учетной записи</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<ContextMenu name="УчетнаяЗаписьДляPushКонтекстноеМеню" id="217"/>
+									<ExtendedTooltip name="УчетнаяЗаписьДляPushРасширеннаяПодсказка" id="218"/>
+								</InputField>
 							</ChildItems>
 						</UsualGroup>
 					</ChildItems>

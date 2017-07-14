@@ -367,6 +367,7 @@
 			<CommonForm>ирОтладкаВнешнихОбработокБСП</CommonForm>
 			<CommonForm>ирОбновлениеОписанияПлатформы</CommonForm>
 			<Catalog>_УчетныеЗаписи</Catalog>
+			<Catalog>_Файлы</Catalog>
 			<Catalog>ВерсииКонфигурацийХранилища</Catalog>
 			<Catalog>ирАлгоритмы</Catalog>
 			<Catalog>ирКомандаРедактироватьОбъект</Catalog>
