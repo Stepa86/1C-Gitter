@@ -129,6 +129,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.ирИмитаторНаборЗаписей</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ирУправлениеИтогамиРегистров</name>
 		<right>
 			<name>Use</name>
@@ -251,6 +262,17 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ирИмитаторАлгоритмОбъект</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -877,6 +899,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.ирИмитаторСсылочныйОбъект</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ирПлатформа.TabularSection.ТаблицаРедактируемыхТипов.Attribute.Имя</name>
 		<right>
 			<name>Edit</name>
@@ -1129,6 +1162,17 @@
 	</object>
 	<object>
 		<name>DataProcessor.ирНастройкаЖурналаРегистрации</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ирИмитаторКонстантаМенеджер</name>
 		<right>
 			<name>Use</name>
 			<value>true</value>

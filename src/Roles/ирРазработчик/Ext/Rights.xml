@@ -238,6 +238,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.ирИмитаторНаборЗаписей</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ирУправлениеИтогамиРегистров</name>
 		<right>
 			<name>Use</name>
@@ -521,6 +532,17 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ирИмитаторАлгоритмОбъект</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -1316,6 +1338,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.ирЗагрузкаТабличныхДанных</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ирКлсПолеТабличногоДокументаСГруппировками</name>
 		<right>
 			<name>Use</name>
@@ -1667,6 +1700,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.ирИмитаторСсылочныйОбъект</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ирПлатформа.TabularSection.ТаблицаРедактируемыхТипов.Attribute.Имя</name>
 		<right>
 			<name>Edit</name>
@@ -1688,7 +1732,7 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ирАнализТехножурнала.TabularSection.ТаблицаЖурнала.Attribute.Транзакция</name>
+		<name>DataProcessor.ирАнализТехножурнала.TabularSection.ТаблицаЖурнала.Attribute.Trans</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -1763,13 +1807,6 @@
 	</object>
 	<object>
 		<name>CommonForm.ирВыпускВариантаПортативный</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.ирНевозможноВТонкомКлиенте</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -2001,6 +2038,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.ирИмитаторКонстантаМенеджер</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ирАнализТехножурнала.TabularSection.ТаблицаЖурнала.Attribute.Источник</name>
 		<right>
 			<name>Edit</name>
@@ -2051,6 +2099,17 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ирСравнениеТаблиц</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
