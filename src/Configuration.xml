@@ -376,6 +376,7 @@
 			<CommandGroup>ирАдминистрирование</CommandGroup>
 			<Constant>ПрограммаРаспаковки</Constant>
 			<Constant>Приложение1С</Constant>
+			<Constant>Константа1</Constant>
 			<CommonForm>ирАдаптацияРасширения</CommonForm>
 			<CommonForm>ирВыпускВариантаПортативный</CommonForm>
 			<CommonForm>ирВыпускВариантаРасширение</CommonForm>
