@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
 	<Subsystem uuid="69395056-dad8-4227-b35c-38827b1495be">
 		<Properties>
 			<Name>ИнструментыРазработчикаTormozit</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Инструменты разработчика 4.16</v8:content>
+					<v8:content>Инструменты разработчика 4.36</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment>4.16</Comment>
+			<Comment>4.36</Comment>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<IncludeInCommandInterface>true</IncludeInCommandInterface>
 			<Explanation>
@@ -19,7 +19,7 @@
 				</v8:item>
 			</Explanation>
 			<Picture>
-				<xr:Ref>CommonPicture.ирЛоготипБольшой</xr:Ref>
+				<xr:Ref>CommonPicture.ирЛоготип24х24</xr:Ref>
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Content>
@@ -67,7 +67,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ирКэш</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ирПользователь</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ирПравоАдминистрирование</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ирЦветФонаВычисляемогоЗначения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ирОткрытьОтладчик</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирCOMАдмин</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ирОткрытьНастройкиАлгоритмов</xr:Item>
@@ -90,13 +89,12 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирКопировать2</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ирКонсольЗаданий</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирАвтоКонтекстнаяПомощь</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ирТекстИнформационнойНадписи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирКонсольКода</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирЧисло</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирДата</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирСтрока</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирБулево</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирЛоготипБольшой</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирЛоготип48х48</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирБлокировка</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирНайтиВСписке</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ирОтладкаПользователя</xr:Item>
@@ -117,10 +115,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирСумма</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирТипыСловПодсказки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирОтборПоЗначению</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ирЦветФонаЧередованияСтрок</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ирИнтерфейснаяПанель</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирОтборПоПодсистеме</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ирЦветФонаОшибки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирДобавитьВИзбранное</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирПользователи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирПользователь</xr:Item>
@@ -168,11 +164,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирКотекстныйСинтаксПомощник</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирРедакторСтроковогоЛитерала</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Style.ирОсновной</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">StyleItem.ирЦветФонаРасширенногоПредставленияЗначения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ирКлсПолеТекстовогоДокументаСКонтекстнойПодсказкой</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ирОбщий</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ирСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирЛоготипМаленький</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирЛоготип16х16</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирВыключено</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирВключено</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ирЗапуститьОбычноеПриложение</xr:Item>
@@ -193,7 +188,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирСписокСПометками</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирВиртуальнаяТаблица</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирРазличия</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ирНевозможноВТонкомКлиенте</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирИндексы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирДокумент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирЗаполнить</xr:Item>
@@ -277,6 +271,20 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ирОбновлениеОписанияПлатформы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ирПоискДанных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирПоискДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирЗагрузка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ирЗагрузкаТабличныхДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ирСравнениеТаблиц</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ирИмитаторАлгоритмОбъект</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирЛоготип24х24</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирУстановитьЗначениеВКолонке</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ирИнтерфейсДляВстраивания</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирExcel</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommandGroup.ирНастройки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирСтрокаТаблицы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ирПоследниеВыбранные</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ирИмитаторНаборЗаписей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ирИмитаторСсылочныйОбъект</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ирИмитаторКонстантаМенеджер</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
