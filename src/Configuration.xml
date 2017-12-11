@@ -157,6 +157,7 @@
 			<Language>Русский</Language>
 			<Subsystem>ИнструментыРазработчикаTormozit</Subsystem>
 			<Subsystem>Gitter</Subsystem>
+			<Subsystem>GitLab</Subsystem>
 			<Style>ирОсновной</Style>
 			<CommonPicture>ирADO</CommonPicture>
 			<CommonPicture>ирCOM</CommonPicture>
@@ -383,6 +384,7 @@
 			<CommonForm>ирОтладкаВнешнихОбработокБСП</CommonForm>
 			<Catalog>_УчетныеЗаписи</Catalog>
 			<Catalog>_Файлы</Catalog>
+			<Catalog>_ДействияПриКоммитеДляГитлаба</Catalog>
 			<Catalog>ВерсииКонфигурацийХранилища</Catalog>
 			<Catalog>ирАлгоритмы</Catalog>
 			<Catalog>ирКомандаРедактироватьОбъект</Catalog>
@@ -391,6 +393,7 @@
 			<Catalog>ПроверкаАПК</Catalog>
 			<Catalog>Хранилища</Catalog>
 			<Report>ирКонсольКомпоновокДанных</Report>
+			<DataProcessor>_ПроверитьДействияПриКоммите</DataProcessor>
 			<DataProcessor>ирАнализЖурналаРегистрации</DataProcessor>
 			<DataProcessor>ирАнализТехножурнала</DataProcessor>
 			<DataProcessor>ирВводВыраженияВстроенногоЯзыка</DataProcessor>
@@ -398,8 +401,8 @@
 			<DataProcessor>ирДинамическийСписок</DataProcessor>
 			<DataProcessor>ирЗагрузкаТабличныхДанных</DataProcessor>
 			<DataProcessor>ирИмитаторАлгоритмОбъект</DataProcessor>
-			<DataProcessor>ирИмитаторНаборЗаписей</DataProcessor>
 			<DataProcessor>ирИмитаторКонстантаМенеджер</DataProcessor>
+			<DataProcessor>ирИмитаторНаборЗаписей</DataProcessor>
 			<DataProcessor>ирИмитаторСсылочныйОбъект</DataProcessor>
 			<DataProcessor>ирИнтерфейснаяПанель</DataProcessor>
 			<DataProcessor>ирИсследовательОбъектов</DataProcessor>

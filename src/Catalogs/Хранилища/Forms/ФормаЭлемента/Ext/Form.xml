@@ -618,6 +618,93 @@
 						</Table>
 					</ChildItems>
 				</Page>
+				<Page name="Страница_ДействияПриКоммите" id="219">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Действия при коммите</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Действия при коммите</v8:content>
+						</v8:item>
+					</ToolTip>
+					<TitleDataPath>Объект.ПриКоммите.RowsCount</TitleDataPath>
+					<ExtendedTooltip name="Страница_ДействияПриКоммитеРасширеннаяПодсказка" id="220"/>
+					<ChildItems>
+						<InputField name="ИдПроекта" id="240">
+							<DataPath>Объект.ИдПроекта</DataPath>
+							<ContextMenu name="ИдПроектаКонтекстноеМеню" id="241"/>
+							<ExtendedTooltip name="ИдПроектаРасширеннаяПодсказка" id="242"/>
+						</InputField>
+						<InputField name="ИмяСервера" id="243">
+							<DataPath>Объект.ИмяСервера</DataPath>
+							<InputHint>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>gitlab.com</v8:content>
+								</v8:item>
+							</InputHint>
+							<ContextMenu name="ИмяСервераКонтекстноеМеню" id="244"/>
+							<ExtendedTooltip name="ИмяСервераРасширеннаяПодсказка" id="245"/>
+						</InputField>
+						<InputField name="Токен" id="246">
+							<DataPath>Объект.Токен</DataPath>
+							<ContextMenu name="ТокенКонтекстноеМеню" id="247"/>
+							<ExtendedTooltip name="ТокенРасширеннаяПодсказка" id="248"/>
+						</InputField>
+						<Table name="ПриКоммите" id="221">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ПриКоммите</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ПриКоммитеКонтекстноеМеню" id="222"/>
+							<AutoCommandBar name="ПриКоммитеКоманднаяПанель" id="223"/>
+							<ExtendedTooltip name="ПриКоммитеРасширеннаяПодсказка" id="224"/>
+							<SearchStringAddition name="ПриКоммитеСтрокаПоиска" id="225">
+								<AdditionSource>
+									<Item>ПриКоммите</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПриКоммитеСтрокаПоискаКонтекстноеМеню" id="226"/>
+								<ExtendedTooltip name="ПриКоммитеСтрокаПоискаРасширеннаяПодсказка" id="227"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПриКоммитеСостояниеПросмотра" id="228">
+								<AdditionSource>
+									<Item>ПриКоммите</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПриКоммитеСостояниеПросмотраКонтекстноеМеню" id="229"/>
+								<ExtendedTooltip name="ПриКоммитеСостояниеПросмотраРасширеннаяПодсказка" id="230"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПриКоммитеУправлениеПоиском" id="231">
+								<AdditionSource>
+									<Item>ПриКоммите</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПриКоммитеУправлениеПоискомКонтекстноеМеню" id="232"/>
+								<ExtendedTooltip name="ПриКоммитеУправлениеПоискомРасширеннаяПодсказка" id="233"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ПриКоммитеНомерСтроки" id="234">
+									<DataPath>Объект.ПриКоммите.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПриКоммитеНомерСтрокиКонтекстноеМеню" id="235"/>
+									<ExtendedTooltip name="ПриКоммитеНомерСтрокиРасширеннаяПодсказка" id="236"/>
+								</LabelField>
+								<InputField name="ПриКоммитеДействие" id="237">
+									<DataPath>Объект.ПриКоммите.Действие</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПриКоммитеДействиеКонтекстноеМеню" id="238"/>
+									<ExtendedTooltip name="ПриКоммитеДействиеРасширеннаяПодсказка" id="239"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
 			</ChildItems>
 		</Pages>
 	</ChildItems>

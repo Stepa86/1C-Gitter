@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Наименование" id="1">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Команда" id="13">
+			<DataPath>Объект.Команда</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КомандаКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="КомандаРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ТекстКомментарияКИшузу" id="16">
+			<DataPath>Объект.ТекстКомментарияКИшузу</DataPath>
+			<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ТекстКомментарияКИшузуКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ТекстКомментарияКИшузуРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<Pages name="Страницы" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="20"/>
+			<ChildItems>
+				<Page name="ГруппаДобавляемыеЛэйблы" id="21">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Добавляемые лэйблы</v8:content>
+						</v8:item>
+					</Title>
+					<TitleDataPath>Объект.ДобавляемыеЛэйблы.RowsCount</TitleDataPath>
+					<ExtendedTooltip name="ГруппаДобавляемыеЛэйблыРасширеннаяПодсказка" id="22"/>
+					<ChildItems>
+						<Table name="ДобавляемыеЛэйблы" id="23">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ДобавляемыеЛэйблы</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ДобавляемыеЛэйблыКонтекстноеМеню" id="24"/>
+							<AutoCommandBar name="ДобавляемыеЛэйблыКоманднаяПанель" id="25"/>
+							<ExtendedTooltip name="ДобавляемыеЛэйблыРасширеннаяПодсказка" id="26"/>
+							<SearchStringAddition name="ДобавляемыеЛэйблыСтрокаПоиска" id="27">
+								<AdditionSource>
+									<Item>ДобавляемыеЛэйблы</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДобавляемыеЛэйблыСтрокаПоискаКонтекстноеМеню" id="28"/>
+								<ExtendedTooltip name="ДобавляемыеЛэйблыСтрокаПоискаРасширеннаяПодсказка" id="29"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ДобавляемыеЛэйблыСостояниеПросмотра" id="30">
+								<AdditionSource>
+									<Item>ДобавляемыеЛэйблы</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДобавляемыеЛэйблыСостояниеПросмотраКонтекстноеМеню" id="31"/>
+								<ExtendedTooltip name="ДобавляемыеЛэйблыСостояниеПросмотраРасширеннаяПодсказка" id="32"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ДобавляемыеЛэйблыУправлениеПоиском" id="33">
+								<AdditionSource>
+									<Item>ДобавляемыеЛэйблы</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ДобавляемыеЛэйблыУправлениеПоискомКонтекстноеМеню" id="34"/>
+								<ExtendedTooltip name="ДобавляемыеЛэйблыУправлениеПоискомРасширеннаяПодсказка" id="35"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ДобавляемыеЛэйблыНомерСтроки" id="36">
+									<DataPath>Объект.ДобавляемыеЛэйблы.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДобавляемыеЛэйблыНомерСтрокиКонтекстноеМеню" id="37"/>
+									<ExtendedTooltip name="ДобавляемыеЛэйблыНомерСтрокиРасширеннаяПодсказка" id="38"/>
+								</LabelField>
+								<InputField name="ДобавляемыеЛэйблыЛэйбл" id="39">
+									<DataPath>Объект.ДобавляемыеЛэйблы.Лэйбл</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ДобавляемыеЛэйблыЛэйблКонтекстноеМеню" id="40"/>
+									<ExtendedTooltip name="ДобавляемыеЛэйблыЛэйблРасширеннаяПодсказка" id="41"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаУдаляемыеЛэблы" id="42">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Удаляемые лэблы</v8:content>
+						</v8:item>
+					</Title>
+					<TitleDataPath>Объект.УдаляемыеЛэблы.RowsCount</TitleDataPath>
+					<ExtendedTooltip name="ГруппаУдаляемыеЛэблыРасширеннаяПодсказка" id="43"/>
+					<ChildItems>
+						<Table name="УдаляемыеЛэблы" id="44">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.УдаляемыеЛэблы</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="УдаляемыеЛэблыКонтекстноеМеню" id="45"/>
+							<AutoCommandBar name="УдаляемыеЛэблыКоманднаяПанель" id="46"/>
+							<ExtendedTooltip name="УдаляемыеЛэблыРасширеннаяПодсказка" id="47"/>
+							<SearchStringAddition name="УдаляемыеЛэблыСтрокаПоиска" id="48">
+								<AdditionSource>
+									<Item>УдаляемыеЛэблы</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="УдаляемыеЛэблыСтрокаПоискаКонтекстноеМеню" id="49"/>
+								<ExtendedTooltip name="УдаляемыеЛэблыСтрокаПоискаРасширеннаяПодсказка" id="50"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="УдаляемыеЛэблыСостояниеПросмотра" id="51">
+								<AdditionSource>
+									<Item>УдаляемыеЛэблы</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="УдаляемыеЛэблыСостояниеПросмотраКонтекстноеМеню" id="52"/>
+								<ExtendedTooltip name="УдаляемыеЛэблыСостояниеПросмотраРасширеннаяПодсказка" id="53"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="УдаляемыеЛэблыУправлениеПоиском" id="54">
+								<AdditionSource>
+									<Item>УдаляемыеЛэблы</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="УдаляемыеЛэблыУправлениеПоискомКонтекстноеМеню" id="55"/>
+								<ExtendedTooltip name="УдаляемыеЛэблыУправлениеПоискомРасширеннаяПодсказка" id="56"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="УдаляемыеЛэблыНомерСтроки" id="57">
+									<DataPath>Объект.УдаляемыеЛэблы.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="УдаляемыеЛэблыНомерСтрокиКонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="УдаляемыеЛэблыНомерСтрокиРасширеннаяПодсказка" id="59"/>
+								</LabelField>
+								<InputField name="УдаляемыеЛэблыЛэйбл" id="60">
+									<DataPath>Объект.УдаляемыеЛэблы.Лэйбл</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="УдаляемыеЛэблыЛэйблКонтекстноеМеню" id="61"/>
+									<ExtendedTooltip name="УдаляемыеЛэблыЛэйблРасширеннаяПодсказка" id="62"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject._ДействияПриКоммитеДляГитлаба</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

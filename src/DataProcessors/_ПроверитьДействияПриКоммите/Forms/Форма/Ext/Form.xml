@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаВыполнитьПроверку" id="20">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ВыполнитьПроверку</CommandName>
+				<ExtendedTooltip name="ФормаВыполнитьПроверкуРасширеннаяПодсказка" id="21"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="ТекстКоммита" id="1">
+			<DataPath>ТекстКоммита</DataPath>
+			<MultiLine>true</MultiLine>
+			<ExtendedEdit>true</ExtendedEdit>
+			<ContextMenu name="ТекстКоммитаКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ТекстКоммитаРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<Table name="Действия" id="4">
+			<Representation>List</Representation>
+			<Header>false</Header>
+			<HorizontalLines>false</HorizontalLines>
+			<VerticalLines>false</VerticalLines>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<DataPath>Действия</DataPath>
+			<RowPictureDataPath>Действия.Picture</RowPictureDataPath>
+			<ContextMenu name="ДействияКонтекстноеМеню" id="5"/>
+			<AutoCommandBar name="ДействияКоманднаяПанель" id="6"/>
+			<ExtendedTooltip name="ДействияРасширеннаяПодсказка" id="7"/>
+			<SearchStringAddition name="ДействияСтрокаПоиска" id="8">
+				<AdditionSource>
+					<Item>Действия</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДействияСтрокаПоискаКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ДействияСтрокаПоискаРасширеннаяПодсказка" id="10"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ДействияСостояниеПросмотра" id="11">
+				<AdditionSource>
+					<Item>Действия</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ДействияСостояниеПросмотраКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ДействияСостояниеПросмотраРасширеннаяПодсказка" id="13"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ДействияУправлениеПоиском" id="14">
+				<AdditionSource>
+					<Item>Действия</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ДействияУправлениеПоискомКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ДействияУправлениеПоискомРасширеннаяПодсказка" id="16"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ДействияЗначение" id="17">
+					<DataPath>Действия.Value</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДействияЗначениеКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ДействияЗначениеРасширеннаяПодсказка" id="19"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<InputField name="ИдПроекта" id="22">
+			<DataPath>Объект.ИдПроекта</DataPath>
+			<ContextMenu name="ИдПроектаКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ИдПроектаРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="ИмяСервера" id="25">
+			<DataPath>Объект.ИмяСервера</DataPath>
+			<ContextMenu name="ИмяСервераКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ИмяСервераРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="Токен" id="28">
+			<DataPath>Объект.Токен</DataPath>
+			<ContextMenu name="ТокенКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ТокенРасширеннаяПодсказка" id="30"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject._ПроверитьДействияПриКоммите</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ТекстКоммита" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст коммита</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Действия" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Действия</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>cfg:CatalogRef._ДействияПриКоммитеДляГитлаба</v8:Type>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ВыполнитьПроверку" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выполнить проверку</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыполнитьПроверку</Action>
+		</Command>
+	</Commands>
+</Form>
