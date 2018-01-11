@@ -394,6 +394,7 @@
 			<Catalog>Хранилища</Catalog>
 			<Report>ирКонсольКомпоновокДанных</Report>
 			<DataProcessor>_ПроверитьДействияПриКоммите</DataProcessor>
+			<DataProcessor>_Активности</DataProcessor>
 			<DataProcessor>ирАнализЖурналаРегистрации</DataProcessor>
 			<DataProcessor>ирАнализТехножурнала</DataProcessor>
 			<DataProcessor>ирВводВыраженияВстроенногоЯзыка</DataProcessor>

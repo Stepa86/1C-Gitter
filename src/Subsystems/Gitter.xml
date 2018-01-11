@@ -33,6 +33,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СтатусыВыгрузки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._УчетныеЗаписи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog._Файлы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor._Активности</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
